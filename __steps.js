@@ -26,19 +26,19 @@
  * Node express setup COMPLETED!!!
  * 
  * -----------------------------
- * -----SETUP SERVER SIDE-------
+ * -ACCESS API FROM CLIENT SIDE-
  * -----------------------------
- * 
- * 
- * 
- * -----------------------------
- * -----SETUP SERVER SIDE-------
- * -----------------------------
- * 
- * 
- * 
+ * Fetch the API to the client side
+ * Check console there will be a CORS error!
+ * To fix CORS error go to the expressjs.com >> Resources >> Middleware >> Cors
+ * Run this command to the server side >> npm install cors
+ * Make the cors require or import into the index.js
+ * Then call the middleware under the port >> app.use(cors())
+ * Access API and show data from server side completed!!!
  * 
  * -----------------------------
  * -----SETUP SERVER SIDE-------
  * -----------------------------
+ * 
+ * 
  */
